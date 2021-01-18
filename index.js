@@ -435,7 +435,7 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
 
   //install
   if (text.includes('.install')) {
-    var url = "https://user-images.githubusercontent.com/72728486/104588271-b4034e80-569a-11eb-8402-44bb2f2bd63b.jpg";
+    var url = "https://github.com/Rizki0001?tab=packages";
     axios.get(url).then((res) => {
 
       imageToBase64(url)
